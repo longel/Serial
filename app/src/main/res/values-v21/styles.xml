@@ -1,0 +1,7 @@
+<resources>
+
+    <style name="base_toolbar" parent="@style/toolbar">
+        <item name="android:elevation">5px</item>
+        <item name="android:navigationIcon">?attr/homeAsUpIndicator</item>
+    </style>
+</resources>

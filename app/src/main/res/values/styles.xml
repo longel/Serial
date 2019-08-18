@@ -1,0 +1,43 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="QMUI.Compat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="toolbar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">?attr/actionBarSize</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:fitsSystemWindows">true</item>
+    </style>
+
+    <style name="base_toolbar" parent="toolbar"/>
+
+    <!-- ToolBar样式.-->
+    <style name="toolbar_theme" parent="@style/ThemeOverlay.AppCompat.Light">
+        <!--修改toolbar的Title(大标题)颜色-->
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <!--修改toolbar的subtitle(小标题)颜色-->
+        <item name="subtitleTextColor">@android:color/white</item>
+        <!--修改toolbar的图标颜色.-->
+        <item name="colorControlNormal">@android:color/white</item>
+    </style>
+
+    <!-- ToolBar菜单样式.-->
+    <style name="popup_theme" parent="@style/ThemeOverlay.AppCompat.Light">
+        <!--设置背景-->
+        <item name="android:background">@android:color/white</item>
+        <!--设置字体颜色-->
+        <item name="android:textColor">@android:color/black</item>
+        <!--设置不覆盖锚点-->
+        <item name="overlapAnchor">false</item>
+        <item name="android:paddingRight">-5dp</item>
+    </style>
+
+</resources>

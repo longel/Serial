@@ -1,0 +1,46 @@
+{
+  "device": {
+    "model": "all",
+    "description": "在这里对设备进行描述",
+    "product": [
+      {
+        "productId": 1,
+        "name": "默认项目",
+        "policy":"common",
+        "current": true,
+        "extra":"每个字段的值表示的意思具体见实体类",
+        "description": "为公司串口测试缩写Demo",
+        "uart": [
+          {
+            "path": "/dev/ttyS1",
+            "baudrate": "115200",
+            "formatRule": 2,
+            "sendCommandCallback": true,
+            "receiveCommandCallback": true
+          },
+          {
+            "path": "/dev/ttyS2",
+            "baudrate": "115200",
+            "formatRule": 2,
+            "sendCommandCallback": false,
+            "receiveCommandCallback": false
+          },
+          {
+            "path": "/dev/ttyS3",
+            "baudrate": "115200",
+            "formatRule": 2,
+            "sendCommandCallback": false,
+            "receiveCommandCallback": false
+          },
+          {
+            "path": "/dev/ttyS4",
+            "baudrate": "115200",
+            "formatRule": 2,
+            "sendCommandCallback": false,
+            "receiveCommandCallback": false
+          }
+        ]
+      }
+    ]
+  }
+}

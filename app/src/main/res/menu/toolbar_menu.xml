@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/serial_port_1"
+        android:icon="@mipmap/ic_serial_port"
+        android:title="@string/serial_port_1"
+        app:showAsAction="never|withText"/>
+
+    <item
+        android:id="@+id/serial_port_2"
+        android:icon="@mipmap/ic_serial_port"
+        android:title="@string/serial_port_2"
+        app:showAsAction="withText"/>
+    <item
+        android:id="@+id/serial_port_3"
+        android:icon="@mipmap/ic_serial_port"
+        android:title="@string/serial_port_3"
+        app:showAsAction="withText"/>
+    <item
+        android:id="@+id/serial_port_4"
+        android:icon="@mipmap/ic_serial_port"
+        android:title="@string/serial_port_4"
+        app:showAsAction="withText"/>
+</menu>

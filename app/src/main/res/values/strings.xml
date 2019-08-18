@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Serial</string>
+    <string name="serial_port_1">串口1</string>
+    <string name="serial_port_2">串口2</string>
+    <string name="serial_port_3">串口3</string>
+    <string name="serial_port_4">串口4</string>
+    <string name="send_command_by_user">发送指令</string>
+    <string name="hint_command_to_send">输入你要发送的指令</string>
+    <string name="send_default_command">发送默认指令</string>
+</resources>
